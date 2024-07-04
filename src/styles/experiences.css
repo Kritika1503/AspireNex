@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;700&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
+.experiences {
+  background-color: #111111;
+  color: white;
+  min-height: 77.8vh;
+}
+
+hr {
+  opacity: 0.6;
+  width: 80%;
+  margin: auto;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  /* color: white; */
+  /* background-color: black; */
+  width: fit-content;
+  margin: auto;
+  /* background-color: white; */
+}
+
+@media (max-width: 700px) {
+  .ques {
+    width: 60%;
+  }
+}

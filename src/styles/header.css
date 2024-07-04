@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;700&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
+
+.header{
+    /* position: relative; */
+min-height: 10vh;
+background-color: #111111;
+display: flex;
+font-size: 1.3rem;
+
+
+/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+/* backdrop-filter: blur( 4px ); */
+/* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5); */
+/* box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.5); */
+
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 2.5rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+    
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.items{
+    color: gray;
+    text-decoration: none;
+    list-style-type: none;
+}
+.link:hover{
+    opacity: 1;
+}
+
+.hammburger-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 700px)
+{
+    .links{
+        display: none;
+    }
+
+    .hammburger-menu{
+        display: flex;
+      
+        
+        margin: 3%;
+        font-size: 2rem;
+        color: white;
+        
+    }
+    .hammburger-menu a{
+        color: white;
+    }
+    .mobile-menu-link {
+        display: flex;
+        margin-top: 4%;
+        margin-right: 90%;
+        z-index: 99;
+        flex-direction: column;
+        transition: all 2s linear;
+
+      }
+    
+      .header{
+        min-height: none;
+      }
+    
+      .mobile-menu-link ul {
+       
+        flex-direction: column;
+        position: relative;
+        left: 4%;
+
+        
+      }
+}

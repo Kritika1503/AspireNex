@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@400;500;700&family=Roboto+Condensed&family=Roboto:wght@400;500&display=swap');
+.about{
+    background-color: #111111;
+    color: white;
+    min-height: 77.8vh;
+    font-family: 'Poppins';
+    text-align: center;
+    /* position: relative; */
+
+}
+.heading{
+    /* margin-bottom: 1.5rem; */
+    color:#FF9130;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.aboutcontainer{
+    display: flex;
+    width: 70%;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Roboto';
+    opacity: 1;
+    font-size: 1.2rem;
+    background-color: #111111;
+    border-radius: 30%;
+    
+    
+    /* background-color: gray; */
+}
+
+.hrule{
+    margin: 2rem;
+    width: 80%;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.journey{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+
+
+
+.skills{
+    display: flex;
+
+    padding: 2rem;
+    gap: 5rem;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: #111111;
+    border-radius: 30%;
+}
+.ques{
+    margin-top: 2rem;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width:700px)
+{
+    .journey{
+        flex-direction: column;
+    }
+}
